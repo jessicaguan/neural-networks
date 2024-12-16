@@ -1,7 +1,7 @@
 @author: jessicaguan
 
 Studies have linked birth control access to a higher quality of life. Research findings suggest that communities with higher rates of contraceptive usage experience lower crime rates. The authors further hypothesise that the correlation could be due to increased educational opportunities, financial opportunities, and a reduced number of unplanned pregnancies (N. Hill et al). However, communities in lower socioeconomic classes tend to have less access to contraceptive methods due to lack of healthcare and fewer contraceptive options. Exploring which socioeconomic factors most affect women’s access to birth control and family planning is important in knowing what resources are needed in these communities. This research paper uses neural computing methods to classify women’s contraceptive methods based on socioeconomic factors.
-This project creates 2 models (multilayer perceptron and support vector machine) based on the [UCI dataset](https://archive.ics.uci.edu/dataset/30/contraceptive+method+choice) which contains information about women's characteristcs and contraceptive method choices.
+This project creates 2 models (multilayer perceptron and support vector machine) based on the [UCI dataset](https://archive.ics.uci.edu/dataset/30/contraceptive+method+choice) which contains information about women's characteristcs and contraceptive method choices. For the full project report, see the file `NeuralComputingReport.pdf`.
 
 requirements:
 `pandas` == 1.5.3,
