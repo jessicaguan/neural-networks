@@ -10,11 +10,11 @@ requirements:
 `torch` == 2.0.1
 
 instructions:
-There are a total of 2 models, `final_svm_model.pkl` and `final_mlp_model.pth`. `final_svm_model.pkl` is the SVM model, and `final_mlp_model.pth` is the MLP model. Both models were trained on a dataset to classify women's contraceptive methods based on socioeconomic factors.
+There are a total of 2 models, `final_svm_model.pkl` and `final_mlp_model.pth`. `final_svm_model.pkl` is the SVM model, and `final_mlp_model.pth` is the MLP model. Both models were trained on a dataset to classify women's contraceptive methods based on socioeconomic factors. The models are found in the `models` folder.
 
-The hyperparameter tuning, training, and testing for the SVM model was done in `FinalContraceptiveSVM.ipynb`, and the hyperparameter tuning, training, and testing for the MLP model was done in `FinalContraceptiveMLP.ipynb`.
+The hyperparameter tuning, training, and testing for the SVM model was done in `FinalContraceptiveSVM.ipynb`, and the hyperparameter tuning, training, and testing for the MLP model was done in `FinalContraceptiveMLP.ipynb`. These can be found in the `python_code` folder.
 
-The test data for `final_svm_model.pkl` is saved as `svm_x_test.csv` and `svm_y_test.csv`. The test data for the `final_mlp_model.pth` is saved as `mlp_x_test.csv` and `mlp_y_test.csv`.
+The test data for `final_svm_model.pkl` is saved as `svm_x_test.csv` and `svm_y_test.csv`. The test data for the `final_mlp_model.pth` is saved as `mlp_x_test.csv` and `mlp_y_test.csv`. These data files can be found in the `data` folder.
 
 To reproduce the testing results, a separate file is provided called testing_reproducibility.ipynb. In this file, the code to define and load the pretrained models and load the test data is already there. Run the libraries and packages needed at the top, then run each cell to test the results.
 
