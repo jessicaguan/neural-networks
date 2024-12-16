@@ -4,9 +4,9 @@ Studies have linked birth control access to a higher quality of life. Research f
 This project creates 2 models (multilayer perceptron and support vector machine) based on the [UCI dataset](https://archive.ics.uci.edu/dataset/30/contraceptive+method+choice) which contains information about women's characteristcs and contraceptive method choices.
 
 requirements:
-`pandas` == 1.5.3
-`sklearn.svm` == 0.0.post11
-`numpy` == 1.24.3
+`pandas` == 1.5.3,
+`sklearn.svm` == 0.0.post11,
+`numpy` == 1.24.3,
 `torch` == 2.0.1
 
 instructions:
